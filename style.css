@@ -57,28 +57,19 @@ img {
 }
 
 #skorComputer {
-    background-color: white;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    position: absolute;
     top: 250px;
     right: 1000px;
-    width: 40px;
-    height: 40px;
-    border: 1.5px solid black;
-    border-radius: 5px;
-    color: red;
-    text-align: center;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    text-shadow: 0.5px 0.5px black;
-    font-size: 30px;
 }
 
 #skorPlayer {
+    top: 310px;
+    right: 1000px;
+}
+
+.skor {
     background-color: white;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
-    top: 310px;
-    right: 1000px;
     width: 40px;
     height: 40px;
     border: 1.5px solid black;
