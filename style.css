@@ -1,0 +1,91 @@
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.container {
+    border: 2px solid gray;
+    margin: 0 200px;
+    border-radius: 40px;
+}
+
+img {
+    width: 15%;
+    border-radius: 18px;
+    border: 1px solid black;
+}
+
+.player img:hover {
+    box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
+}
+
+#hasil {
+    color: red;
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: white;
+    padding: 5px;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    top: 280px;
+    right: 585px;
+    text-shadow: 0.5px 0.5px black;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.computer {
+    background-color: aqua;
+    padding: 50px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.player {
+    padding: 50px;
+    background-color: bisque;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#skorComputer {
+    background-color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 250px;
+    right: 1000px;
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    color: red;
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-shadow: 0.5px 0.5px black;
+    font-size: 30px;
+}
+
+#skorPlayer {
+    background-color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 310px;
+    right: 1000px;
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    color: red;
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-shadow: 0.5px 0.5px black;
+    font-size: 30px;
+}
